@@ -1,3 +1,4 @@
+import pytest
 if __name__ == '__main__':
     valor_unitario = float(input('Valor unitário do produto: '))
     quantidade = int(input('Quantidade: '))
@@ -18,3 +19,8 @@ if __name__ == '__main__':
 
     print(f'Valor total sem desconto: {valor_sem_desconto:.2f} R$')
     print(f'Valor total com desconto: {valor_com_desconto:.2f} R$')
+
+    
+    terminal
+    pytest .\exercicio1.py
+    
