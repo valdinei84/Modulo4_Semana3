@@ -1,3 +1,4 @@
+import pytest
 def ler_dimensoes_objeto():
     volume = 0
     lido_sucesso = False
@@ -149,3 +150,8 @@ if __name__ == '__main__':
     )
 
     print(resultado_final)
+
+    
+    terminal
+    cd .semana3
+    pytest .\exercicio3.py::validar_media
