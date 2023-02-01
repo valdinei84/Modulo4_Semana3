@@ -1,3 +1,4 @@
+import pytest
 if __name__ == '__main__':
     cardapio = """
     *******************Cardápio*******************
@@ -59,3 +60,7 @@ if __name__ == '__main__':
         codigo = int(input('Entre com o código desejado: '))
 
     print(f'O total a ser pago é: {total:.2f} R$')
+    
+    terminal
+    cd .Semana3
+    pytest .\exercicio2.py
